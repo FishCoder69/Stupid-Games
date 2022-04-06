@@ -1,0 +1,150 @@
+
+body {
+background-color: #1C1726;
+color: black;
+height: 100%;
+margin:0;
+}
+a:link, .logo:visited {
+text-decoration: none;
+}
+
+.navbar{
+list-style-type:none ;
+margin: 0;
+background-color: #352c47;
+padding: 0.3%;
+}
+.meny{
+margin: 0%;
+}
+.header{
+position: fixed;
+}
+.logo{
+color: rgba(97, 93, 74, 0.973);
+border-style: solid;
+border-width: 7px;
+width: fit-content;
+padding: 7px;
+font-size: 40px;
+font-family: monospace;
+background-color: #BDFF00;
+border-radius: 15%;
+margin-right: 40px;
+}
+.alla_spel{
+color: #BDFF00;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 30px;
+text-decoration: none;
+}
+li{
+display: inline;
+margin-right: 15px;
+}
+ul {
+list-style-type: none;
+margin: 0;
+overflow: hidden;
+background-color: #352c47;
+}
+
+li {
+float: left;
+}
+
+li a, .dropbtn {
+display: inline-block;
+color: #BDFF00;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li.dropdown {
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #352c47;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+.first-main{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 0px min(142px, max(8vw, 16px));
+    z-index: 0;
+  }
+  .second-main{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 96px;
+    margin-top: 24px;
+    gap: 24px;
+  }
+  .hashtaggar{
+    text-decoration: none;
+  }
+  .recommended_games1{
+    display: grid;
+    flex-flow: row wrap;
+    gap: 8px;
+    grid-template-columns: repeat(4, minmax(0px, 1fr));
+  }
+  
+  .spel-bild{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+  }
+  .content{
+    max-width: max(min(100vw, 1440px), 480px);
+    flex: 1 1 0%;
+    word-break: break-word;
+  }
+  .hashtag{
+    font-family: Averta, -apple-system, "Segoe UI", system-ui, sans-serif;
+    font-feature-settings: "tnum", "lnum";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+    text-decoration-line: none;
+    background: rgb(46, 39, 63);
+    border-radius: 24px;
+    color: rgb(189, 255, 0);
+    padding: 5px 14px;
+    white-space: nowrap;
+  }
+  .hashtag:hover{
+    color: white;
+  }
+  .recommended-1{
+    font-family: Averta, -apple-system, "Segoe UI", system-ui, sans-serif;
+    font-feature-settings: "tnum", "lnum";
+   font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: white;
+  }
